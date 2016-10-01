@@ -1,7 +1,2 @@
-%h1 welcome to index page
-=simple_form_for(@post, html: { class: 'form_horizontal' }) do |f|
-  =f.input :title
-  =f.input :body
-  =f.button :submit
-
-
+- @posts.each do |post|
+	%h1= link_to post.title, post
