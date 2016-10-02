@@ -1,10 +1,10 @@
-# Homework 1 - *Name of App*
+# Homework 1 - *Tuấn Nguyễn Blog*
 
 **Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
-Danh sách sinh viên: **Your Name Here**
+Danh sách sinh viên: **1312667 Nguyễn Văn Tuấn**
 
-URL: **Insert your Heroku URL here**
+URL: **https://tuannguyenblog.herokuapp.com/**
 
 ## Chức năng
 
@@ -57,7 +57,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016] [Tuấn Nguyễn]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
