@@ -1,6 +1,6 @@
 # Homework 1 - *Tuấn Nguyễn Blog*
 
-**Name of your app** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
+**Tuấn Nguyễn Blog** Đây là trang web cho phép người dùng viết blog. Thời gian nộp: 0h ngày 3/10
 
 Danh sách sinh viên: **1312667 Nguyễn Văn Tuấn**
 
