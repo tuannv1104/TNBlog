@@ -7,12 +7,13 @@
 %body
  %nav.navbar.navbar-default
   .container
-   .navbar-brand= link_to "Tuấn Nguyễn Blog", root_path
+   .navbar-brand= link_to "TN Blog", root_path
    %ul.nav.navbar-nav.navbar-right
     %li= link_to "New Post", new_post_path
+    %li= link_to "Sign out", destroy_user_session_path, method: :delete
   - if notice
    = notice
   - if alert
    = alert
-  .container
-   = yield
+.container
+ = yield
