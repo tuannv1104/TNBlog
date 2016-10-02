@@ -1,7 +1,7 @@
 %h1 POST
 - @posts.each do |post|
 	.post
-		%h1= link_to post.title, post
+		%h2= link_to post.title, post
 		%small
 			Created by: 
 			= post.user.email

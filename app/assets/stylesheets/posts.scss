@@ -1,3 +1,41 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$green: #18bc9c;
+$blue: #2c3e50;
+
+//forms
+.form {
+	textarea {
+		max-width: 100%;
+	}
+}
+
+.post {
+	h2 {
+		font-weight: 800;
+		padding-left: 10px;
+		border-left: 4px solid $green;
+		a {
+			&:hover {
+				text-decoration: none;
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+.content {
+	h1 {
+		font-size: 2.6em;
+		font-weight: 800;
+		text-align: center;
+	}
+	hr {
+		border-top: 2px solid $blue;
+		width: 50%;
+	}
+	p {
+		font_size: 1.3em;
+	}
+}

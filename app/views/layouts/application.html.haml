@@ -1,13 +1,13 @@
 !!! 5
 %head
- %title TN Blog
+ %title Tuấn Nguyễn Blog
  = csrf_meta_tags 
  = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' 
  = javascript_include_tag 'application', 'data-turbolinks-track': 'reload' 
 %body
  %nav.navbar.navbar-default
   .container
-   .navbar-brand= link_to "TN Blog", root_path
+   .navbar-brand= link_to "TuanNguyen Blog", root_path
    %ul.nav.navbar-nav.navbar-right
     -if user_signed_in?
      %li= link_to "New Post", new_post_path
